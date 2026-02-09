@@ -37,7 +37,7 @@ Veja os arquivos de configuração utilizados no projeto.
 
 Acompanhe a jornada de construção do home lab:
 
-[1 - Setup Inicial](journal\Journal_1.md)
+[1 - Setup Inicial](https://github.com/ramos-leticia/chaos-observatory/blob/main/journal/Journal_1.md)
 
 <b>
 
@@ -73,4 +73,4 @@ Explore the configuration files used throughout the project.
 
 Follow the home lab construction journey:
 
-[1 - Setup Inicial](journal\Journal_1.md)
+[1 - Setup Inicial](https://github.com/ramos-leticia/chaos-observatory/blob/main/journal/Journal_1.md)
