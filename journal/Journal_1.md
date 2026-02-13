@@ -14,13 +14,13 @@ Na primeira tentativa de instalação do sistema operacional, ocorreu um erro na
 
 * Acessei ao sistema em *recovery mode*.
 * Excluí manualmente do usuário criado incorretamente.
-* Criei de um novo usuário e reconfiguração das permissões.
+* Criei de um novo usuário e reconfigurei as permissões.
 
 
 ### Problemas com a conectividade
 
-Outro problema que ocorreu foi com a configuração do Wi-Fi. O notebook não possui entrada RJ45 e não tenho adaptador. A interface `wlan0` não estava sendo reconhecida por nada e, para não abortar o processo, a instalação foi concluída **sem rede**.
-Após a instalação, não foi possível habilitar o wi-fi manualmente.
+Outro problema que ocorreu foi relacionado a configuração do Wi-Fi. O notebook não possui entrada RJ45 e não tenho adaptador. A interface `wlan0` não estava sendo reconhecida por nada e, para não abortar o processo,concluí a instalação **sem rede** mesmo.
+E veio outro problema. Após a instalação, não foi possível habilitar o wi-fi manualmente.
 
 **O que eu fiz:**
 
@@ -30,22 +30,18 @@ Aí não teve jeito. Precisei reinstalar o sistema operacional.
 
 Ocorreram problemas com o boot pelo pendrive e precisei alterar algumas configurações da BIOS para conseguir conseguir inicializar corretamente pelo USB novamente. Sorte que encontrei alguns tutoriais que me ajudaram nessa etapa.
 
-**Resultado:**
+---
 
-* Reinstalação bem-sucedida.
+## Segunda instalação
+
+* Finalmente tive sucesso e correu tudo bem.
 * Wi-Fi configurado corretamente durante o setup inicial.
 
 **Trade-off:**
 
 * Gastei tempo com a reinstalação mas reduzi o custo congnitivo de ficar batendo cabeça para debugar estando offline.
 
----
-
-## Segunda instalação
-
 ### Setup base
-
-Após a terceira tentativa, o sistema foi configurado com sucesso. As seguintes etapas foram concluídas:
 
 * Configuração correta do Wi-Fi durante a instalação.
 * Acesso SSH configurado já no processo inicial, utilizando chave do GitHub.
@@ -58,8 +54,7 @@ Após a terceira tentativa, o sistema foi configurado com sucesso. As seguintes 
 * Instalação de ferramentas essenciais para administração.
 * Instalação e validação do Docker e Docker Compose.
 * Criação da estrutura de pastas base do projeto.
-* Manutenção da configuração padrão de swap (sem ajustes prematuros).
-
+* Manutenção da configuração padrão de swap.
 
 ### Configurações e Limitações de hardware
 
@@ -68,10 +63,9 @@ A ideia inicial era manter o notebook fechado, funcionando como um servidor head
 
 * Dobradiça estava travada.
 * Moldura da tela se desintegrando (literalmente).
-* Risco mais danos físicos se mantido fechado (tela rachou quando fui tentar abrir a tampa).
+* Risco de mais danos físicos se mantido fechado (tela rachou quando fui tentar abrir a tampa..).
 
 Decidi então manter o notebook aberto, aceitando a limitação estética em prol da estabilidade física do hardware.
-
 
 ### Acesso Remoto e Rede
 
@@ -84,7 +78,7 @@ A rede Wi-Fi foi configurada com **IP estático**, garantindo previsibilidade pa
 
 ---
 
-## Principais Aprendizados
+## Principais Aprendizados desta etapa
 
 * Problemas básicos (usuário, rede, boot) trouxe um desafio real à minha mini operação.
 * Preocupação e necessidade de lidar com limitações reais de hardware.
@@ -122,7 +116,9 @@ In the end, there was no other way: I had to reinstall the operating system.
 
 Issues arose with the USB boot process, requiring me to change several BIOS settings to successfully boot from the USB drive again. Luckily, I found some tutorials that guided me through this stage.
 
-**Result:**
+---
+
+## Second Installation
 
 * Successful reinstallation.
 * Wi-Fi correctly configured during the initial setup.
@@ -131,13 +127,7 @@ Issues arose with the USB boot process, requiring me to change several BIOS sett
 
 * I spent extra time on the reinstallation, but it reduced the cognitive load of "banging my head against the wall" trying to debug while offline.
 
----
-
-## Second Installation
-
 ### Base Setup
-
-After the third attempt, the system was successfully configured. The following steps were completed:
 
 * Correct Wi-Fi configuration during installation.
 * **SSH access** configured during the initial process using my GitHub keys.
@@ -150,7 +140,7 @@ After the third attempt, the system was successfully configured. The following s
 * Installation of essential administration tools.
 * Installation and validation of **Docker and Docker Compose**.
 * Creation of the base project folder structure.
-* Maintenance of the default **swap** configuration (avoiding premature optimization).
+* Maintenance of the default **swap** configuration.
 
 ### Hardware Configurations and Limitations
 
